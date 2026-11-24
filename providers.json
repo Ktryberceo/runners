@@ -72,6 +72,18 @@
       "pricing_source": "https://checklane.sh/pricing"
     },
     {
+      "provider": "groundbox",
+      "name": "Groundbox",
+      "label": "groundbox-4vcpu",
+      "arch": "x64",
+      "vcpu": 4,
+      "memory_gb": 16,
+      "price_per_minute": 0.006,
+      "enabled": true,
+      "notes": "groundbox.dev. Ubuntu 24.04, one Firecracker microVM per job. $0.0015 per vCPU-minute.",
+      "pricing_source": "https://groundbox.dev/pricing"
+    },
+    {
       "provider": "buildkite",
       "name": "Buildkite",
       "label": "buildkite-linux-amd64-4x16",
